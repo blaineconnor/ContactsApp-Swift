@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		F317132F2B6936B700A7DBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317132E2B6936B700A7DBD9 /* AppDelegate.swift */; };
 		F31713312B6936B700A7DBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31713302B6936B700A7DBD9 /* SceneDelegate.swift */; };
-		F31713332B6936B700A7DBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31713322B6936B700A7DBD9 /* ViewController.swift */; };
+		F31713332B6936B700A7DBD9 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31713322B6936B700A7DBD9 /* Anasayfa.swift */; };
 		F31713362B6936B700A7DBD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31713342B6936B700A7DBD9 /* Main.storyboard */; };
 		F31713382B6936B900A7DBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31713372B6936B900A7DBD9 /* Assets.xcassets */; };
 		F317133B2B6936B900A7DBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31713392B6936B900A7DBD9 /* LaunchScreen.storyboard */; };
+		F31713472B69373700A7DBD9 /* KisiKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31713462B69373700A7DBD9 /* KisiKayit.swift */; };
+		F31713492B69374600A7DBD9 /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31713482B69374600A7DBD9 /* KisiDetay.swift */; };
+		F317134B2B6937F500A7DBD9 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317134A2B6937F500A7DBD9 /* Kisiler.swift */; };
+		F36323722B6BD56F00E14E60 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F36323712B6BD56F00E14E60 /* RxSwift */; };
+		F363237B2B6BE0AE00E14E60 /* KisilerDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363237A2B6BE0AE00E14E60 /* KisilerDaoRepo.swift */; };
+		F363237E2B6BE0EA00E14E60 /* AnasayfaVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363237D2B6BE0EA00E14E60 /* AnasayfaVM.swift */; };
+		F36323802B6BE10000E14E60 /* KisiKayitVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363237F2B6BE10000E14E60 /* KisiKayitVM.swift */; };
+		F36323822B6BE11500E14E60 /* KisiDetayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36323812B6BE11500E14E60 /* KisiDetayVM.swift */; };
+		F3C71B672B6A1927001CFC18 /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C71B662B6A1927001CFC18 /* KisilerHucre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F317132B2B6936B700A7DBD9 /* KisilerUygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KisilerUygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F317132E2B6936B700A7DBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F31713302B6936B700A7DBD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F31713322B6936B700A7DBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F31713322B6936B700A7DBD9 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		F31713352B6936B700A7DBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F31713372B6936B900A7DBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F317133A2B6936B900A7DBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F317133C2B6936B900A7DBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31713462B69373700A7DBD9 /* KisiKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayit.swift; sourceTree = "<group>"; };
+		F31713482B69374600A7DBD9 /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
+		F317134A2B6937F500A7DBD9 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		F363237A2B6BE0AE00E14E60 /* KisilerDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDaoRepo.swift; sourceTree = "<group>"; };
+		F363237D2B6BE0EA00E14E60 /* AnasayfaVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVM.swift; sourceTree = "<group>"; };
+		F363237F2B6BE10000E14E60 /* KisiKayitVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVM.swift; sourceTree = "<group>"; };
+		F36323812B6BE11500E14E60 /* KisiDetayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVM.swift; sourceTree = "<group>"; };
+		F3C71B662B6A1927001CFC18 /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36323722B6BD56F00E14E60 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +76,77 @@
 			children = (
 				F317132E2B6936B700A7DBD9 /* AppDelegate.swift */,
 				F31713302B6936B700A7DBD9 /* SceneDelegate.swift */,
-				F31713322B6936B700A7DBD9 /* ViewController.swift */,
+				F31713432B6936E500A7DBD9 /* UI */,
+				F31713422B6936D500A7DBD9 /* data */,
 				F31713342B6936B700A7DBD9 /* Main.storyboard */,
 				F31713372B6936B900A7DBD9 /* Assets.xcassets */,
 				F31713392B6936B900A7DBD9 /* LaunchScreen.storyboard */,
 				F317133C2B6936B900A7DBD9 /* Info.plist */,
 			);
 			path = "KisilerUygulaması";
+			sourceTree = "<group>";
+		};
+		F31713422B6936D500A7DBD9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F36323792B6BE09300E14E60 /* Repo */,
+				F31713442B69370200A7DBD9 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		F31713432B6936E500A7DBD9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F363237C2B6BE0D500E14E60 /* ViewModel */,
+				F3C71B652B6A18F5001CFC18 /* tableview */,
+				F31713452B69370B00A7DBD9 /* views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F31713442B69370200A7DBD9 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F317134A2B6937F500A7DBD9 /* Kisiler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F31713452B69370B00A7DBD9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F31713322B6936B700A7DBD9 /* Anasayfa.swift */,
+				F31713462B69373700A7DBD9 /* KisiKayit.swift */,
+				F31713482B69374600A7DBD9 /* KisiDetay.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F36323792B6BE09300E14E60 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				F363237A2B6BE0AE00E14E60 /* KisilerDaoRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		F363237C2B6BE0D500E14E60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F363237D2B6BE0EA00E14E60 /* AnasayfaVM.swift */,
+				F363237F2B6BE10000E14E60 /* KisiKayitVM.swift */,
+				F36323812B6BE11500E14E60 /* KisiDetayVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3C71B652B6A18F5001CFC18 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				F3C71B662B6A1927001CFC18 /* KisilerHucre.swift */,
+			);
+			path = tableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,9 @@
 			dependencies = (
 			);
 			name = "KisilerUygulaması";
+			packageProductDependencies = (
+				F36323712B6BD56F00E14E60 /* RxSwift */,
+			);
 			productName = "KisilerUygulaması";
 			productReference = F317132B2B6936B700A7DBD9 /* KisilerUygulaması.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = F31713222B6936B700A7DBD9;
+			packageReferences = (
+				F36323662B6BD56F00E14E60 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F317132C2B6936B700A7DBD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31713332B6936B700A7DBD9 /* ViewController.swift in Sources */,
+				F31713472B69373700A7DBD9 /* KisiKayit.swift in Sources */,
+				F3C71B672B6A1927001CFC18 /* KisilerHucre.swift in Sources */,
+				F31713492B69374600A7DBD9 /* KisiDetay.swift in Sources */,
+				F36323802B6BE10000E14E60 /* KisiKayitVM.swift in Sources */,
+				F363237E2B6BE0EA00E14E60 /* AnasayfaVM.swift in Sources */,
+				F31713332B6936B700A7DBD9 /* Anasayfa.swift in Sources */,
+				F363237B2B6BE0AE00E14E60 /* KisilerDaoRepo.swift in Sources */,
 				F317132F2B6936B700A7DBD9 /* AppDelegate.swift in Sources */,
+				F36323822B6BE11500E14E60 /* KisiDetayVM.swift in Sources */,
 				F31713312B6936B700A7DBD9 /* SceneDelegate.swift in Sources */,
+				F317134B2B6937F500A7DBD9 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F36323662B6BD56F00E14E60 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F36323712B6BD56F00E14E60 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F36323662B6BD56F00E14E60 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F31713232B6936B700A7DBD9 /* Project object */;
 }
