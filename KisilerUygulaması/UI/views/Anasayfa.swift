@@ -44,7 +44,7 @@ class Anasayfa: UIViewController {
 
 extension Anasayfa : UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Kişi Ara : \(searchText)")
+        vm.ara(aramaKelimesi: searchText)
     }
 }
 extension Anasayfa : UITableViewDelegate,UITableViewDataSource{
